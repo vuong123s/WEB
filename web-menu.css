@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #fff;
+
+}
+ ul, li, a{!
+ 	font-family: all !important;
+}
+
+img{
+	height: 400px;
+}
+
+.menu{
+	display: flex;
+	height: 50px;
+	background-color: #111;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+}
+
+.menu-style{
+	position: relative;
+}
+
+.menu{
+	color: #fff;
+}
+
+.kind{
+	background-color: #111 !important;
+	border: none !important;
+}
+
+.kind a{
+	color: #FFF;
+	text-decoration: none !important;
+}
+
+.kind a:hover{
+	color: #fff !important;
+}
+
+.search-content{
+	padding: 4px 50px;
+	position: absolute;
+	top:0;
+	right: 0
+}
+
+input[type="text"] {
+      width: 130px ;
+      box-sizing: border;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 8px 14px;
+      transition: 0.5s ease-in-out;
+    }
+
+input[type="text"]:focus{
+    width:500px; 
+}
+
+.kind:visited{
+	border: none !important;
+}
